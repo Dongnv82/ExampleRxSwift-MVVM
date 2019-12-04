@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5502EB192397A2C1008AE959 /* VMExTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502EB182397A2C1008AE959 /* VMExTwo.swift */; };
+		5502EB1B2397A2E5008AE959 /* ExTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502EB1A2397A2E5008AE959 /* ExTwoVC.swift */; };
+		5502EB1E2397ABB0008AE959 /* ExThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502EB1D2397ABB0008AE959 /* ExThreeVC.swift */; };
+		5502EB202397ABC9008AE959 /* VMExThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502EB1F2397ABC9008AE959 /* VMExThree.swift */; };
+		55034C222397B48D005F21DA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55034C212397B48D005F21DA /* Extension.swift */; };
 		550CF32323975CDB00AAA8C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CF32223975CDB00AAA8C4 /* AppDelegate.swift */; };
 		550CF32523975CDB00AAA8C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CF32423975CDB00AAA8C4 /* ViewController.swift */; };
 		550CF32823975CDB00AAA8C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550CF32623975CDB00AAA8C4 /* Main.storyboard */; };
 		550CF32A23975CDF00AAA8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550CF32923975CDF00AAA8C4 /* Assets.xcassets */; };
 		550CF32D23975CDF00AAA8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550CF32B23975CDF00AAA8C4 /* LaunchScreen.storyboard */; };
+		550CF3372397622600AAA8C4 /* ExampleOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CF3362397622600AAA8C4 /* ExampleOneVC.swift */; };
+		550CF3392397637700AAA8C4 /* VMExampleOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550CF3382397637700AAA8C4 /* VMExampleOne.swift */; };
 		5EA24FDD9EC5D96A6D81060A /* Pods_ExampleRxSwift_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6386B218BD0FC214AA8E63F /* Pods_ExampleRxSwift_MVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5502EB182397A2C1008AE959 /* VMExTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMExTwo.swift; sourceTree = "<group>"; };
+		5502EB1A2397A2E5008AE959 /* ExTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExTwoVC.swift; sourceTree = "<group>"; };
+		5502EB1D2397ABB0008AE959 /* ExThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExThreeVC.swift; sourceTree = "<group>"; };
+		5502EB1F2397ABC9008AE959 /* VMExThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMExThree.swift; sourceTree = "<group>"; };
+		55034C212397B48D005F21DA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		550CF31F23975CDB00AAA8C4 /* ExampleRxSwift-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExampleRxSwift-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		550CF32223975CDB00AAA8C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		550CF32423975CDB00AAA8C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,6 +35,8 @@
 		550CF32923975CDF00AAA8C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		550CF32C23975CDF00AAA8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		550CF32E23975CDF00AAA8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550CF3362397622600AAA8C4 /* ExampleOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOneVC.swift; sourceTree = "<group>"; };
+		550CF3382397637700AAA8C4 /* VMExampleOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMExampleOne.swift; sourceTree = "<group>"; };
 		9A019BA777C9F33B55014BF0 /* Pods-ExampleRxSwift-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleRxSwift-MVVM.release.xcconfig"; path = "Target Support Files/Pods-ExampleRxSwift-MVVM/Pods-ExampleRxSwift-MVVM.release.xcconfig"; sourceTree = "<group>"; };
 		C56ACE1745BE173E8BB6696B /* Pods-ExampleRxSwift-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleRxSwift-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-ExampleRxSwift-MVVM/Pods-ExampleRxSwift-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		F6386B218BD0FC214AA8E63F /* Pods_ExampleRxSwift_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleRxSwift_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,8 +60,25 @@
 				C56ACE1745BE173E8BB6696B /* Pods-ExampleRxSwift-MVVM.debug.xcconfig */,
 				9A019BA777C9F33B55014BF0 /* Pods-ExampleRxSwift-MVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5502EB172397A279008AE959 /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				5502EB182397A2C1008AE959 /* VMExTwo.swift */,
+				5502EB1A2397A2E5008AE959 /* ExTwoVC.swift */,
+			);
+			path = Example2;
+			sourceTree = "<group>";
+		};
+		5502EB1C2397AB62008AE959 /* Example3 */ = {
+			isa = PBXGroup;
+			children = (
+				5502EB1D2397ABB0008AE959 /* ExThreeVC.swift */,
+				5502EB1F2397ABC9008AE959 /* VMExThree.swift */,
+			);
+			path = Example3;
 			sourceTree = "<group>";
 		};
 		550CF31623975CDB00AAA8C4 = {
@@ -71,14 +102,35 @@
 		550CF32123975CDB00AAA8C4 /* ExampleRxSwift-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				550CF32223975CDB00AAA8C4 /* AppDelegate.swift */,
+				5502EB1C2397AB62008AE959 /* Example3 */,
+				5502EB172397A279008AE959 /* Example2 */,
+				550CF3352397617B00AAA8C4 /* Example1 */,
+				550CF3342397614200AAA8C4 /* Common */,
 				550CF32423975CDB00AAA8C4 /* ViewController.swift */,
 				550CF32623975CDB00AAA8C4 /* Main.storyboard */,
+			);
+			path = "ExampleRxSwift-MVVM";
+			sourceTree = "<group>";
+		};
+		550CF3342397614200AAA8C4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				550CF32223975CDB00AAA8C4 /* AppDelegate.swift */,
 				550CF32923975CDF00AAA8C4 /* Assets.xcassets */,
 				550CF32B23975CDF00AAA8C4 /* LaunchScreen.storyboard */,
 				550CF32E23975CDF00AAA8C4 /* Info.plist */,
+				55034C212397B48D005F21DA /* Extension.swift */,
 			);
-			path = "ExampleRxSwift-MVVM";
+			path = Common;
+			sourceTree = "<group>";
+		};
+		550CF3352397617B00AAA8C4 /* Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				550CF3362397622600AAA8C4 /* ExampleOneVC.swift */,
+				550CF3382397637700AAA8C4 /* VMExampleOne.swift */,
+			);
+			path = Example1;
 			sourceTree = "<group>";
 		};
 		81F13F69DA2C95B30EE2BAB4 /* Frameworks */ = {
@@ -213,7 +265,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55034C222397B48D005F21DA /* Extension.swift in Sources */,
+				5502EB1B2397A2E5008AE959 /* ExTwoVC.swift in Sources */,
+				5502EB1E2397ABB0008AE959 /* ExThreeVC.swift in Sources */,
+				5502EB202397ABC9008AE959 /* VMExThree.swift in Sources */,
 				550CF32523975CDB00AAA8C4 /* ViewController.swift in Sources */,
+				550CF3372397622600AAA8C4 /* ExampleOneVC.swift in Sources */,
+				550CF3392397637700AAA8C4 /* VMExampleOne.swift in Sources */,
+				5502EB192397A2C1008AE959 /* VMExTwo.swift in Sources */,
 				550CF32323975CDB00AAA8C4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "ExampleRxSwift-MVVM/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ExampleRxSwift-MVVM/Common/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "ExampleRxSwift-MVVM/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/ExampleRxSwift-MVVM/Common/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
