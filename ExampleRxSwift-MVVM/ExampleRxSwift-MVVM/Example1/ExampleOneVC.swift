@@ -31,9 +31,16 @@ class ExampleOneVC: UIViewController {
         .disposed(by: disposeBag)
         
         //Step 4: Output ở VC sẽ subscribe những Observable mà VM cung cấp
-        viewModel.textObservable
-        .bind(to: label.rx.text)
-        .disposed(by: disposeBag)
+        
+        viewModel.textObservable.subscribe(onNext: {
+            text in
+            self.inputText.text = text
+        }).disposed(by: disposeBag)
+        
+        //-tự mò
+//        viewModel.textObservable
+//        .bind(to: label.rx.text)
+//        .disposed(by: disposeBag)
         
     }
 }

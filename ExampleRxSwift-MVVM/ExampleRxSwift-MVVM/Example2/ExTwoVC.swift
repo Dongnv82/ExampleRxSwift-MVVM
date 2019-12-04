@@ -34,9 +34,15 @@ class ExTwoVC: UIViewController {
         .disposed(by: disposeBag)
         
         //Step 4: truyền các dữ liệu đã xử lý từ VM sang hiển thị trên VC
-        viewModel.outputView
-        .bind(to: outputText.rx.text)
-        .disposed(by: disposeBag)
+        //cách 1:
+        viewModel.outputView.subscribe(onNext: {
+            text in
+            self.outputText.text = text
+        }).disposed(by: disposeBag)
+        //cách 2
+//        viewModel.outputView
+//        .bind(to: outputText.rx.text)
+//        .disposed(by: disposeBag)
     }
 
 }
